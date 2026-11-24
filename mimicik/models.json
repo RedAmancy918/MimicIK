@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "aliases": {
+    "airbot": "airbot-mip-fk-seed1"
+  },
+  "models": {
+    "airbot-mip-fk-seed1": {
+      "description": "AIRBOT mip_fk, seed 1, final 300k EMA",
+      "sha256": "8952707a60fe82e70e54bbf0c2f02fb38538ee4527c16d2e25329d295c2a5f35",
+      "bytes": 65141826,
+      "unpacked_bytes": 70774457,
+      "files": {
+        "model.safetensors": "6a635829684e677c76617c1729520bf7563701bfee21fb0525cd2baf71309fb9",
+        "config.json": "0f94d6ea1aab1bed10ac8611a848b72b5565b4400f16e4f9e89be46e7761130b",
+        "metadata.json": "a9fda2463f7668acca6021f8cceec2bb5fdc425aed024d8bea133b7810baac80",
+        "normalizer.json": "1227d51d4d0adfaa68ff5eb6f8af08dc55abac34bb55d3ba1c0c8555cebaa906"
+      },
+      "urls": [
+        "https://github.com/RedAmancy918/MimicIK/releases/download/models-v0.1.0/airbot-mip-fk-seed1.zip"
+      ]
+    },
+    "airbot-mip-fk-seed2": {
+      "description": "AIRBOT mip_fk, seed 2, final 300k EMA",
+      "sha256": "7c75f63e97adcaeb8a40920ca1953dded617f0e0c0f7d314b90540ba3d5f8753",
+      "bytes": 65141037,
+      "unpacked_bytes": 70774457,
+      "files": {
+        "model.safetensors": "cc8b3bb6f5cb7faedb5e05ae2e35917b488f98ecf575b707689dc1146ef66a4f",
+        "config.json": "0f94d6ea1aab1bed10ac8611a848b72b5565b4400f16e4f9e89be46e7761130b",
+        "metadata.json": "b00e0ec1ec73d7f49b478ff9a8a91293e6f6897d1d1a460f77c54f6b09da9fe4",
+        "normalizer.json": "1227d51d4d0adfaa68ff5eb6f8af08dc55abac34bb55d3ba1c0c8555cebaa906"
+      },
+      "urls": [
+        "https://github.com/RedAmancy918/MimicIK/releases/download/models-v0.1.0/airbot-mip-fk-seed2.zip"
+      ]
+    },
+    "airbot-mip-seed1": {
+      "description": "AIRBOT mip_no_fk, seed 1, final 300k EMA",
+      "sha256": "d7a39de70d83e53c42a4d96a5ce6ee2cbd2968f2a6001f31d51c7e649a3eb4ea",
+      "bytes": 65132326,
+      "unpacked_bytes": 70774463,
+      "files": {
+        "model.safetensors": "f1be8db59cb2ec309648d4acdd9d7d21c08fcd98ebc7fd8f590c374d93fd0bac",
+        "config.json": "0f94d6ea1aab1bed10ac8611a848b72b5565b4400f16e4f9e89be46e7761130b",
+        "metadata.json": "d2698fc3f3640886c7561e05922266215f290e1f28e9f795812ed54b3a589fc5",
+        "normalizer.json": "1227d51d4d0adfaa68ff5eb6f8af08dc55abac34bb55d3ba1c0c8555cebaa906"
+      },
+      "urls": [
+        "https://github.com/RedAmancy918/MimicIK/releases/download/models-v0.1.0/airbot-mip-seed1.zip"
+      ]
+    }
+  }
+}

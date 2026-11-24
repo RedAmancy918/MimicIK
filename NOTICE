@@ -1,0 +1,27 @@
+MimicIK
+
+This release is a compact derivative of the NatureIK research implementation.
+Audited source snapshot: e974f096d0102078bf028d029514a57479a4729f.
+
+NatureIK / MimicIK:
+Copyright (c) 2026 FNii Lab, The Chinese University of Hong Kong, Shenzhen.
+Jiahao (Geo) Yang.
+
+This project incorporates and adapts Minimal Iterative Policy (MIP) software,
+including the observation encoder and SuDeepDiT network components:
+Copyright (c) 2025 Chaoyi Pan.
+Project: https://simchowitzlabpublic.github.io/much-ado-about-noising-project/
+Paper: https://arxiv.org/abs/2512.01809
+
+Both source components are distributed under the MIT License. The permission
+text and copyright notices are retained in LICENSE.
+
+PyTorch, NumPy, safetensors, PyArrow, PyYAML and PyTorch Kinematics are separate
+dependencies and retain their own licenses. External datasets, robot models,
+meshes and checkpoints are governed by their accompanying license and provenance
+records; this source-code license does not replace those terms.
+
+The public LeRobot high_quality_folding dataset is maintained at
+https://huggingface.co/datasets/lerobot/high_quality_folding and declares
+Apache-2.0 at revision c9eb858d4b84e520edecbda84a3534c3c1e78436.
+It is referenced as a data source, not bundled with this repository.

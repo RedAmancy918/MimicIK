@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use MimicIK, please cite the paper below."
+type: software
+title: "MimicIK: Learned joint-motion decoding from end-effector targets"
+authors:
+  - family-names: Yang
+    given-names: Jiahao
+repository-code: "https://github.com/RedAmancy918/MimicIK"
+url: "https://github.com/RedAmancy918/MimicIK"
+license: MIT
+keywords:
+  - robotics
+  - inverse kinematics
+  - imitation learning
+  - end-effector control
+preferred-citation:
+  type: article
+  title: "MimicIK: Real-Time Generative Inverse Kinematics from Teleoperation with FK Consistency"
+  authors:
+    - family-names: Yang
+      given-names: Jiahao
+    - family-names: Yan
+      given-names: Shenhao
+    - family-names: Feng
+      given-names: Fan
+    - family-names: Yao
+      given-names: Chengsi
+    - family-names: Wang
+      given-names: Ge
+    - family-names: Mai
+      given-names: Zhixin
+    - family-names: Zhao
+      given-names: Yiming
+    - family-names: Han
+      given-names: Yatong
+  year: 2026
+  journal: arXiv
+  doi: "10.48550/arXiv.2606.15148"
+  url: "https://arxiv.org/abs/2606.15148"
