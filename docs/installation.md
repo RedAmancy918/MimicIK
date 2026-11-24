@@ -1,8 +1,9 @@
 # Installation and tested environment
 
-Use Python **3.11 or newer**. The CI workflow covers CPU installation on Python
-3.11/3.12; initial local release verification passed on Python 3.12.16. CI results
-are reported separately by GitHub Actions.
+Use Python **3.11 or newer**. CPU installation, tests, a short training run,
+inference and packaging passed on Linux with Python 3.11 and 3.12 in
+[GitHub Actions](https://github.com/RedAmancy918/MimicIK/actions/runs/45351192674).
+Local release verification also passed on macOS with Python 3.12.16.
 
 ```bash
 python -m venv .venv

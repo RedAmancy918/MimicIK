@@ -2,7 +2,7 @@
 
 **Learned joint-motion decoding from end-effector targets.**
 
-[Paper](https://arxiv.org/abs/2606.15148) · [Checkpoints](https://github.com/RedAmancy918/MimicIK/releases) · [Installation](docs/installation.md) · [Data format](docs/data.md) · [Reproducibility](docs/reproducibility.md) · [中文](README.zh-CN.md)
+[Paper](https://arxiv.org/abs/2606.15148) · [Checkpoints](https://huggingface.co/vistar918/MimicIK/tree/main/releases/v0.1.0) · [Installation](docs/installation.md) · [Data format](docs/data.md) · [Reproducibility](docs/reproducibility.md) · [中文](README.zh-CN.md)
 
 MimicIK turns the current robot state and a target end-effector (EEF) pose into a local joint command. It learns from paired teleoperation records and uses two deterministic network evaluations to decode a joint increment. A short observation history supplies motion context.
 
@@ -35,6 +35,8 @@ python examples/infer.py --checkpoint checkpoints/airbot
 
 `airbot` selects `airbot-mip-fk-seed1`. Run `python -m mimicik.download --list`
 to see all three released AIRBOT models and their download names.
+Downloads use a pinned Hugging Face revision with a GitHub release mirror and
+verify both the archive and bundle checksums. No account or token is required.
 
 The example runs synthetic inputs to demonstrate loading and inference. It does not connect to a robot, establish tracking accuracy, or supply a hardware command sequence. The download command retrieves the curated AIRBOT bundle; its metadata records the source checkpoint and checksums. The larger [historical model collection](https://huggingface.co/vistar918/MimicIK) contains other architectures and training runs and is separate from this quick start.
 

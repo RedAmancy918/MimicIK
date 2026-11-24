@@ -16,6 +16,7 @@
         "normalizer.json": "1227d51d4d0adfaa68ff5eb6f8af08dc55abac34bb55d3ba1c0c8555cebaa906"
       },
       "urls": [
+        "https://huggingface.co/vistar918/MimicIK/resolve/5a3eab263d172f56ac3ba5365cfef4ae17a36f48/releases/v0.1.0/airbot-mip-fk-seed1.zip",
         "https://github.com/RedAmancy918/MimicIK/releases/download/models-v0.1.0/airbot-mip-fk-seed1.zip"
       ]
     },
@@ -31,6 +32,7 @@
         "normalizer.json": "1227d51d4d0adfaa68ff5eb6f8af08dc55abac34bb55d3ba1c0c8555cebaa906"
       },
       "urls": [
+        "https://huggingface.co/vistar918/MimicIK/resolve/5a3eab263d172f56ac3ba5365cfef4ae17a36f48/releases/v0.1.0/airbot-mip-fk-seed2.zip",
         "https://github.com/RedAmancy918/MimicIK/releases/download/models-v0.1.0/airbot-mip-fk-seed2.zip"
       ]
     },
@@ -46,6 +48,7 @@
         "normalizer.json": "1227d51d4d0adfaa68ff5eb6f8af08dc55abac34bb55d3ba1c0c8555cebaa906"
       },
       "urls": [
+        "https://huggingface.co/vistar918/MimicIK/resolve/5a3eab263d172f56ac3ba5365cfef4ae17a36f48/releases/v0.1.0/airbot-mip-seed1.zip",
         "https://github.com/RedAmancy918/MimicIK/releases/download/models-v0.1.0/airbot-mip-seed1.zip"
       ]
     }

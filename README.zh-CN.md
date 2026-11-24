@@ -2,7 +2,7 @@
 
 **根据末端目标，学习生成连续的局部关节命令。**
 
-[论文](https://arxiv.org/abs/2606.15148) · [预训练权重](https://github.com/RedAmancy918/MimicIK/releases) · [安装说明](docs/installation.md) · [数据格式](docs/data.md) · [复现说明](docs/reproducibility.md) · [English](README.md)
+[论文](https://arxiv.org/abs/2606.15148) · [预训练权重](https://huggingface.co/vistar918/MimicIK/tree/main/releases/v0.1.0) · [安装说明](docs/installation.md) · [数据格式](docs/data.md) · [复现说明](docs/reproducibility.md) · [English](README.md)
 
 MimicIK 接收机器人当前关节状态、当前与目标末端位姿，以及短时观测历史，通过两次确定性网络调用预测关节增量。模型从遥操作配对记录中学习局部运动方式，输出命令为 `q_command = q_current + delta_q`。
 
@@ -35,6 +35,7 @@ python examples/infer.py --checkpoint checkpoints/airbot
 
 `airbot` 默认选择 `airbot-mip-fk-seed1`。运行
 `python -m mimicik.download --list` 可查看三个已发布 AIRBOT 模型及其下载名称。
+下载优先使用固定版本的 Hugging Face 权重，并保留 GitHub Release 镜像；自动校验下载包及其内容，无需账号或 token。
 
 示例使用合成输入演示加载和推理，不连接机器人，也不构成轨迹精度验证。下载得到的 AIRBOT 发布包包含模型、归一化参数及来源/校验元数据。[历史模型集合](https://huggingface.co/vistar918/MimicIK)包含其他网络和训练版本，与本快速示例分开管理。
 

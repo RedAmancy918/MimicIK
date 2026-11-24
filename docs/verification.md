@@ -22,6 +22,12 @@ software checks.
   inference, recorded-state evaluation and ideal feedback replay successfully.
 - All three model archives were checksum-verified, extracted and loaded before
   release. Wheel and source distribution builds succeeded.
+- [Linux CI on Python 3.11 and 3.12](https://github.com/RedAmancy918/MimicIK/actions/runs/45351192674)
+  passed installation, the standalone test suite, synthetic data creation, a
+  short training run, inference, and wheel/source distribution builds.
+- Anonymous downloads from the public GitHub release and pinned Hugging Face
+  revision passed size and SHA256 checks and bundle loading. The inference
+  example ran on the downloaded AIRBOT model in the clean environment.
 
 These are compatibility and software checks. Synthetic fixtures and random
 input parity checks do not measure real-robot task success or reproduce the
