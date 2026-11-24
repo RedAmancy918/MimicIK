@@ -118,7 +118,8 @@ def test_stateless_quaternion_sign_and_batch_predictions():
     )
     batch = policy.predict_delta(np.stack([history, opposite]))
     assert batch.shape == (2, 6)
-    np.testing.assert_array_equal(batch[0], batch[1])
+    # Batched CPU kernels can differ by a few float32 ULPs across rows.
+    np.testing.assert_allclose(batch[0], batch[1], rtol=1e-6, atol=1e-7)
     assert len(policy._history) == 0
     invalid = history.copy()
     invalid[:, 9:13] = 0
