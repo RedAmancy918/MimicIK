@@ -2,11 +2,13 @@
 
 **Learned joint-motion decoding from end-effector targets.**
 
-[Paper](https://arxiv.org/abs/2606.15148) · [Checkpoints](https://huggingface.co/vistar918/MimicIK/tree/main/releases/v0.1.0) · [Installation](docs/installation.md) · [Data format](docs/data.md) · [Reproducibility](docs/reproducibility.md) · [中文](README.zh-CN.md)
+[Project page](https://mimicik-project.aurorabread512.chatgpt.site) · [Paper](https://arxiv.org/abs/2606.15148) · [Checkpoints](https://huggingface.co/vistar918/MimicIK/tree/main/releases/v0.1.0) · [Installation](docs/installation.md) · [Data format](docs/data.md) · [Reproducibility](docs/reproducibility.md) · [中文](README.zh-CN.md)
 
 MimicIK turns the current robot state and a target end-effector (EEF) pose into a local joint command. It learns from paired teleoperation records and uses two deterministic network evaluations to decode a joint increment. A short observation history supplies motion context.
 
 This repository provides a compact implementation for inference, training, and trajectory evaluation, extracted from the original NatureIK research code. It includes a Python API, portable pretrained weights, optional differentiable FK training, and explicit data and evaluation conventions. Each model is trained for a particular robot and coordinate convention; this release does not provide zero-shot control of unseen robots.
+
+Watch [real-robot demonstrations](https://mimicik-project.aurorabread512.chatgpt.site/#demos) of cup placement, bottle pickup, and teleoperation on the project page. The videos show earlier hardware experiments; downloadable checkpoints come from the later controlled AIRBOT training series.
 
 ## Install
 
