@@ -2,13 +2,13 @@
 
 **根据末端目标，学习生成连续的局部关节命令。**
 
-[项目主页](https://mimicik-project.aurorabread512.chatgpt.site) · [论文](https://arxiv.org/abs/2606.15148) · [预训练权重](https://huggingface.co/vistar918/MimicIK/tree/main/releases/v0.1.0) · [安装说明](docs/installation.md) · [数据格式](docs/data.md) · [复现说明](docs/reproducibility.md) · [English](README.md)
+[项目主页](https://redamancy918.github.io/MimicIK/) · [论文](https://arxiv.org/abs/2606.15148) · [预训练权重](https://huggingface.co/vistar918/MimicIK/tree/main/releases/v0.1.0) · [安装说明](docs/installation.md) · [数据格式](docs/data.md) · [复现说明](docs/reproducibility.md) · [English](README.md)
 
 MimicIK 接收机器人当前关节状态、当前与目标末端位姿，以及短时观测历史，通过两次确定性网络调用预测关节增量。模型从遥操作配对记录中学习局部运动方式，输出命令为 `q_command = q_current + delta_q`。
 
 本仓库从原 NatureIK 研究代码中整理出推理、训练和轨迹评测所需组件，提供 Python 接口、便携权重和可选的可微 FK 训练。每个模型对应明确的机器人与坐标约定，不提供未见机器人零样本控制。
 
-项目主页提供放杯、抓瓶和遥操作跟随的[实机演示视频](https://mimicik-project.aurorabread512.chatgpt.site/#demos)。视频来自早期实机实验；可下载权重来自后续受控 AIRBOT 训练系列。
+项目主页提供放杯、抓瓶和遥操作跟随的[实机演示视频](https://redamancy918.github.io/MimicIK/#demos)。视频来自早期实机实验；可下载权重来自后续受控 AIRBOT 训练系列。
 
 ## 安装
 

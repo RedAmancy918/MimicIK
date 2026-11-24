@@ -19,7 +19,7 @@ fk = ["pytorch-kinematics>=0.9,<0.11"]
 dev = ["pytest>=8", "ruff>=0.9", "build>=1"]
 
 [project.urls]
-Homepage = "https://mimicik-project.aurorabread512.chatgpt.site"
+Homepage = "https://redamancy918.github.io/MimicIK/"
 Repository = "https://github.com/RedAmancy918/MimicIK"
 Paper = "https://arxiv.org/abs/2606.15148"
 Models = "https://huggingface.co/vistar918/MimicIK"
